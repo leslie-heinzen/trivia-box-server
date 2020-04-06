@@ -6,12 +6,12 @@ This repository is for the server.
 
 To run:
 
-- Download the repository.
-- Restore the solution.
-- Bootstrap the database:
+1. Download the repository.
+2. Restore the solution.
+3. Bootstrap the database:
 ```
 dotnet ef migrations add InitialCreate
 
 dotnet ef database update
 ```
-- Run the project however you prefer.
+4. Run the project however you prefer.
