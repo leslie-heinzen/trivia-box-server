@@ -1,3 +1,5 @@
+🚧 Work in progress 🚧
+
 ## Trivia Box
 
 A real-time trivia application for fun and profit.
