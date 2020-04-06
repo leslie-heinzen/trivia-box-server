@@ -95,7 +95,7 @@ namespace TriviaBoxServer
                 var currentQuestion = mechanics.Questions[i];
                 await Clients.Group(roomCode)
                     .SendAsync("sendQuestion", currentQuestion);
-                await Task.Delay(30000);
+                await Task.Delay(mechanics.RoundTime);
 
                 // between rounds (except last round)
                 if (i < mechanics.Questions.Count - 1)
